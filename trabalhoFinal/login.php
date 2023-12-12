@@ -10,6 +10,9 @@
 </head>
 
 <body>
+    <?php
+        include("menu.php");
+    ?>
     <div class="wrapper">
         <div class="form-box Login">
             <h2>Login</h2>

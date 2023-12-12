@@ -16,10 +16,9 @@
             session_start();
             if (isset($_SESSION["user"])) {
                 ?>
-                <a style="background-color: gray"><?php echo "Olá " . $_SESSION["user"] ?></a>
                 <a href="main.php">Home</a>
                 <a href="catalogo.php">Catalogo</a>
-                <a href="#"><img src="img/1.png"></a>
+                <a href="profile.php" style="background-color: gray"><?php echo "Olá " . $_SESSION["user"] ?></a>
                 <a href="logout.php">Sair</a>
                 <?php
             } else {

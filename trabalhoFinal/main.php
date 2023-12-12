@@ -19,21 +19,21 @@
 ?>
 <div class="home">
     <?php
-    echo "<h3>Seja bem-vindo ".$_SESSION["user"]. " ao melhor site do mundo<br><br>";
+    echo "<h1>Seja bem-vindo ".$_SESSION["user"]. " ao melhor site do mundo<br><br></h1>";
     echo "<p> Descubra uma incrível gama de jogos para se divertir, ";
-    echo "<br>desde jogos de simulação até jogos de tabuleiros e muito mais</p></h3>";  
+    echo "<br>desde jogos de simulação até jogos de tabuleiros e muito mais</p>";  
     ?>
 </div>
     <div class="home">
     <?php
-	echo "<img src='earth.png'>";    
+	echo "<img src='img/t.png'>";    
     ?>
     </div>
 <div class="home">
     <?php
 	} else {
 		echo "<h3>Faça login para aceder ao nosso site</h3>";
-		echo "<img src='login.png'>";
+		echo "<img src='img/login.png'>";
 	}
 	?>
 </div>
